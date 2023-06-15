@@ -11,3 +11,7 @@ def test_fizzbuzz_divisible_by_three_should_be_fizz():
 
 def test_fizzbuzz_divisible_by_five_should_be_buzz():
     assert fizzbuzz(5)[-1] == 'Buzz'
+
+
+def test_fizzbuzz_divisible_by_three_and_five_should_be_fizzbuzz():
+    assert fizzbuzz(15)[-1] == 'FizzBuzz'
